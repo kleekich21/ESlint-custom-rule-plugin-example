@@ -9,7 +9,7 @@ module.exports = [
       sourceType: "commonjs",
       ecmaVersion: "latest",
     },
-    plugins: { example: eslintPluginExmaple },
+    plugins: { example: eslintPluginExample },
     rules: {
       "example/enforce-foo-bar": "error",
     },
