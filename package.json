@@ -1,12 +1,22 @@
 {
-  "name": "eslint-custom-rule-example",
+  "name": "eslint-custom-rule-plugin-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "eslint-plugin-example.js",
   "scripts": {
     "test": "node enforce-foo-bar.test.js"
   },
-  "keywords": [],
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
 }
