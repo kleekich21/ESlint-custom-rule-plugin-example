@@ -28,7 +28,7 @@ module.exports = {
                   notBar: node.init.value,
                 },
                 fix(fixer) {
-                  return fixer.replace.Text(node.init, '"bar"');
+                  return fixer.replaceText(node.init, '"bar"');
                 },
               });
             }
